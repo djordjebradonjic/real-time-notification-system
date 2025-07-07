@@ -1,1 +1,6 @@
+com/djordje/realtime_notifications/config/AppConfig.class
+com/djordje/realtime_notifications/service/UserService.class
+com/djordje/realtime_notifications/model/User.class
 com/djordje/realtime_notifications/RealtimeNotificationsApplication.class
+com/djordje/realtime_notifications/repository/UserRepository.class
+com/djordje/realtime_notifications/controller/UserController.class
