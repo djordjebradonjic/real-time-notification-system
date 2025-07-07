@@ -20,3 +20,15 @@
 
 # Docker
 docker-compose.override.yml
+
+/target/
+*.class
+*.jar
+*.war
+sha256*
+CACHED
+CANCELED
+ERROR
+resolve
+transferring
+=
