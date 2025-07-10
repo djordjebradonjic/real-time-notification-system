@@ -26,4 +26,5 @@ public class UserController {
 
         return "Backend is up!";
     }
+
 }
