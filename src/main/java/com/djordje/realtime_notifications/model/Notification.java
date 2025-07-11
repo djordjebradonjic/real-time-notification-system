@@ -7,7 +7,7 @@ import lombok.Setter;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "notification")
+@Table(name = "notifications")
 @Getter
 @Setter
 public class Notification {
@@ -22,9 +22,10 @@ public class Notification {
     private LocalDateTime timestamp;
 
     @ManyToOne
-    @JoinColumn(name="id")
+    @JoinColumn(name="user_id")
     private User user;
 
+    public Notification(){}
     public Notification(String message , User user){
         this.message=message;
         this.user=user;
