@@ -13,6 +13,7 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 public class RedisConfig {
     private static final String CHANELL = "notifications";
 
+    @Bean
     public ChannelTopic topic(){
         return new ChannelTopic(CHANELL);
     }
