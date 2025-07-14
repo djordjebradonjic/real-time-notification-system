@@ -9,4 +9,6 @@ public class CreateNotificationRequestDTO {
 
     private String message;
     private String username;
+
+    public  CreateNotificationRequestDTO(){}
 }
